@@ -1,6 +1,0 @@
-2021/04/20-01:16:41.453 93a4 Reusing MANIFEST C:\workSpace1\python_tutorial\anken2\scraping\UserData\Default\Local Storage\leveldb/MANIFEST-000001
-2021/04/20-01:16:41.455 93a4 Recovering log #4
-2021/04/20-01:16:41.456 93a4 Reusing old log C:\workSpace1\python_tutorial\anken2\scraping\UserData\Default\Local Storage\leveldb/000004.log 
-2021/04/20-01:22:43.724 39b8 Level-0 table #8: started
-2021/04/20-01:22:43.731 39b8 Level-0 table #8: 22212 bytes OK
-2021/04/20-01:22:43.735 39b8 Delete type=0 #4
