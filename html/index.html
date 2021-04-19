@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+    <head>
+        <title>自動翻訳</title>
+    <!-- JqueryのJS読み込み -->
+    <script src="static/js/jquery.min.js"></script>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="static/css/bootstrap.css" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+    <!-- BootstrapのJS読み込み -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- vueのJS読込 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script> 
+    </head>
+    <body>
+    <!-- 全体 -->
+    <div id="body" class="mx-auto">
+        <!-- 購入商品選択コンテナ -->
+        <div class="container">
+            <h2 class="jumbotron-heading pt-2">自動翻訳</h2>
+        </div>
+        <div class="container shadow p-3 mb-3 bg-white rounded">
+            <h5 class="jumbotron-heading">言語選択</h5>
+            <div  id="header" class="form-row justify-content-center">
+                <!-- 原文 -->
+                <div class="col-sm-3 m-1">
+                    <label>原文</label> 
+                    <div>
+                        <select v-model="origin_lang" class="custom-select mr-sm-2">
+                            <!-- valueをobjectにすれば操作しやすい -->
+                            <option v-for="(lang, index) in lang_master" :key="index" v-bind:value="lang">
+                                {{lang.name}}
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <!-- 矢印 -->
+                <div class="col-sm-2 m-1">
+                    <label class="invisible">矢印</label> 
+                    <div class="d-flex align-items-center pt-1">
+                        <label>➡　➡</label>
+                    </div>
+                </div>
+                <!-- 翻訳後 -->
+                <div class="col-sm-3 m-1">
+                    <label>翻訳後</label> 
+                    <div>
+                        <select v-model="trans_lang" class="custom-select mr-sm-2">
+                            <!-- valueをobjectにすれば操作しやすい -->
+                            <option v-for="(lang, index) in lang_master" :key="index" v-bind:value="lang">
+                                {{lang.name}}
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-3">
+            <div class="form-row justify-content-end">
+                <!-- 翻訳ボタン -->
+                <button type="button"class="col-sm-3 m-1 btn btn-success" @click="translate">翻訳</button>
+                <!-- 文章クリア -->
+                <button type="button" class="col-sm-3 m-1 btn btn-danger" @click="clearText">文章クリア</button>
+            </div>
+        </div>
+        <!-- 翻訳 -->
+        <div class="container shadow px-2 py-3 mb-3 bg-white rounded">
+            <div class="form-inline justify-content-center">
+                <textarea v-model="origin_text" class="form-control col-sm-5" id="originText" placeholder="ここに文章を入力してください。" rows="10"></textarea>
+                    <div class="d-flex align-items-center p-1">
+                        <label>➡　➡</label>
+                    </div>
+                <textarea v-model="trans_text" class="form-control col-sm-5" id="translatedText" rows="10"></textarea>
+            </div>
+        </div>
+    </div>
+
+        <script type="text/javascript" src="./eel.js"></script>
+        <script src="srcipt.js"></script>
+        <script>
+
+            // 選択済の商品
+            const selectedItem = new Vue({
+                el: "#body",
+                data() {
+                    return {
+                        selected: "",
+                        items: [],
+                        amount: 1,
+                        deleteItems: [], // 例) 1, 3, 5
+                        selectedItems:[], //code, name, price, amount
+                        totalPrice:0,
+                        receivedMoney: 0,
+
+                        origin_lang: "",
+                        trans_lang: "",
+                        origin_text: "",
+                        trans_text: "",
+                        lang_master: [],
+                    }
+                },
+                mounted: async function() {
+                    this.lang_master = await eel.get_lang_master()();
+                    console.log(this.lang_master);
+                    this.origin_lang = this.lang_master[45];
+                    this.trans_lang = this.lang_master[21];
+                },
+                methods: {
+                    // 翻訳する
+                    translate: async function() {
+                        this.trans_text = await eel.translate(this.origin_text, this.trans_lang.code, this.origin_lang.code)()
+                    },
+                    // 文章をクリアする
+                    clearText: function() {
+                        this.origin_text = "";
+                        this.trans_text = "";
+                    },
+                }
+
+            });
+
+        </script>
+    </body>
+</html>
