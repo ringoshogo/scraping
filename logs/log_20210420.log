@@ -178,3 +178,254 @@
 2021-04-20 01:23:09,549 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 8GB トワイライトブルー 広告つき 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
 2021-04-20 01:23:13,349 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon Kindle Paperwhite (第10世代) 用 ファブリックカバー カナリアイエロー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
 2021-04-20 01:23:17,039 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire 7 タブレット (7インチディスプレイ) 32GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:09:36,277 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン(第3世代)付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:09:40,148 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:09:43,272 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon イーサネットアダプタ > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:09:49,230 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【2020年発売 Fire TV Stick 第3世代用 】 延長保証プラン (2年) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:09:57,303 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:09:57,359 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:03,782 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:03,829 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:03,837 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:07,014 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Kindle Paperwhite (第10世代) 用 保護フィルム】 Digio2 液晶保護フィルム フッ素コーティン… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:07,021 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Kindle Paperwhite (第10世代) 用 保護フィルム】 Digio2 液晶保護フィルム フッ素コーティン… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:10,353 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Alexa対応音声認識リモコン(2021年発売 第3世代) | 対応する別売りのFire TV本体が必要です > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:15,240 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Alexa対応音声認識リモコン(第2世代) Fire TV Stick 4K、Fire TV Stick (第3世代)、Fire TV… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:15,250 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Alexa対応音声認識リモコン(第2世代) Fire TV Stick 4K、Fire TV Stick (第3世代)、Fire TV… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:19,693 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット) 第4世代 - 時計付きスマートスピーカー with Alexa、グレーシャーホワ… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:22,793 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 8, Fire HD 8 Plus用】 Digio2 液晶保護フィルム 高精細 反射防止 気泡レス加工 2枚入り > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:26,283 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire 7 タブレット (7インチディスプレイ) 16GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:30,172 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 8GB ブラック 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:37,915 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Show 5 (エコーショー5) スマートディスプレイ with Alexa、チャコール > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:43,554 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 タブレット ブラック (8インチHDディスプレイ) 32GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:47,022 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Show 5 (エコーショー5) スマートディスプレイ with Alexa、サンドストーン > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:10:57,199 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット) 第4世代 - スマートスピーカー with Alexa、チャコール > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:00,634 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 32GB ブラック 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:04,178 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット) 第4世代 - 時計付きスマートスピーカー with Alexa、トワイライトブルー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:06,994 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Alexa対応音声認識リモコン(第1世代) Fire TV全機種に対応 > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:10,022 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ホワイト (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:10,076 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ホワイト (10インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:16,804 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon Kindle Paperwhite (第10世代) 用 ファブリックカバー チャコールブラック > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:23,762 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット)第3世代 - スマートスピーカー with Alexa、チャコール > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:26,660 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K用 延長保証プラン (2年) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:30,385 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite (第10世代)用 延長保証・事故保証プラン (2年・落下・水濡れ等の保証付き) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:33,952 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブルー (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:34,005 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブルー (10インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:37,366 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 Plus タブレット スレート (8インチHDディスプレイ) 32GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:40,653 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 10 2019年発売 第9世代用】 延長保証・事故保証プラン (2年・落下・水濡れ等の保… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:44,087 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 5 用】 Amazon純正 角度調節スタンド ブラック > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:53,135 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Show 8 (エコーショー8) HDスマートディスプレイ with Alexa、チャコール > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:56,021 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K用 延長保証プラン (3年) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:11:59,506 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 タブレット ホワイト (8インチHDディスプレイ) 32GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:02,641 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:02,680 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:02,692 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:08,880 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Oasis 色調調節ライト搭載 wifi 32GB 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:12,648 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Show 8 (エコーショー8) HDスマートディスプレイ with Alexa、サンドストーン > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:16,382 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 8GB ブラック 広告つき 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:19,430 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 8, Fire HD 8 Plus用】 延長保証・事故保証プラン (2年・落下・水濡れ等の保証付き) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:22,996 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【新型】Echo Dot (エコードット) 第4世代 - スマートスピーカー with Alexa、グレーシャーホワ… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:26,166 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 8, Fire HD 8 Plus用】 Amazon純正 カバー (2020年発売 第10世代) チャコールブラック > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:39,578 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【新型】Echo Show 10 (エコーショー10) 第3世代 - モーション機能付きスマートディスプレイ… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:39,589 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【新型】Echo Show 10 (エコーショー10) 第3世代 - モーション機能付きスマートディスプレイ… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:42,698 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 32GB > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:42,767 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 32GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:46,330 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【新型】Echo Show 10 (エコーショー10) 第3世代 - モーション機能付きスマートディスプレイ… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:50,248 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【 Kindle Oasis (第9世代、第10世代)用】Digio2 液晶保護フィルム フッ素コーティング 反射防止… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:12:56,929 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 キッズモデル パープル 32GB + ドラえもんバッグ > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:04,589 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 キッズモデル パープル (10 インチ HD ディスプレイ) 32GB + ドラえもんバッグ > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:07,914 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック 64GB 【純正キッズカバー (ピンク) 付き】 > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:08,000 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック 64GB 【純正キッズカバー (ピンク) 付き】 > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:11,792 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 8 用】 Amazon純正 角度調節スタンド ブラック > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:15,144 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 タブレット ブルー (8インチHDディスプレイ) 32GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:17,957 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 5 用】 Amazon純正 角度調節スタンド ホワイト > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:24,659 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Auto - スマホとの組み合わせで車の中でもAlexaを > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:28,276 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle フロントライト搭載 Wi-Fi 8GB ブラック 広告つき 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:31,069 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 5 用】 Digio2 液晶保護フィルム 高精細 反射防止 気泡レス加工 2枚入り > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:35,680 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット)第3世代 - スマートスピーカー with Alexa、ヘザーグレー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:39,564 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 8 用】 Amazon純正 角度調節スタンド ホワイト > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:47,881 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Cube - 4K・HDR対応、Alexa対応音声認識リモコン付属 | ストリーミングメディアプレー… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:51,264 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick (第2世代) 用 延長保証プラン (2年) > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:51,321 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick (第2世代) 用 延長保証プラン (2年) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:51,333 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick (第2世代) 用 延長保証プラン (2年) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:55,556 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo (エコー) 第4世代 - スマートスピーカーwith Alexa - プレミアムサウンド&スマートホームハ… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:13:58,854 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 Plus タブレット 32GB 【ワイヤレス充電スタンド付き】 > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:02,224 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 8 用】 Digio2 液晶保護フィルム 高精細 反射防止 2枚入り > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:05,628 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire 7(第7世代, 第9世代)専用保護フィルム】 Digio2 液晶保護フィルム 高精細 反射防止 気泡… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:09,577 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 8GB ブラック 電子書籍リーダー + Kindle Unlimited（3ヵ… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:09,594 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 8GB ブラック 電子書籍リーダー + Kindle Unlimited（3ヵ… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:13,071 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 32GB ブラック 電子書籍リーダー + Kindle Unlimited（3… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:13,079 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 32GB ブラック 電子書籍リーダー + Kindle Unlimited（3… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:16,248 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ホワイト 64GB 【純正キッズカバー (ピンク) 付き】 > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:16,306 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ホワイト 64GB 【純正キッズカバー (ピンク) 付き】 > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:20,616 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi+4G 32GB ブラック 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:24,045 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon 5W USB 充電器 > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:27,842 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【セット買い】Echo Dot (第4世代) 時計付き グレーシャーホワイト + スイッチボット Hub Mini… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:33,072 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【セット買い】Echo Dot 第3世代 チャコール + スイッチボット スマートホーム 学習リモコン Hub… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:36,395 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 Plus タブレット スレート (8インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:39,819 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 32GB ブラック 広告つき 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:43,448 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット) 第4世代 - スマートスピーカー with Alexa、トワイライトブルー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:46,374 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle (第10世代)用 Digio2 液晶保護フィルム フッ素コーティング 反射防止 抗菌 気泡レス加工 2… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:49,601 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle フロントライト搭載 Wi-Fi 8GB ブラック 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:53,936 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【セット買い】Echo Dot (第4世代) 時計付き トワイライトブルー + スイッチボット Hub Mini ス… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:57,071 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon Kindle 1.5m マイクロUSBケーブル、黒 > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:14:59,989 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 8 用】 延長保証・事故保証プラン (2年・落下・水濡れ等の保証付き) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:03,577 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 タブレット ブラック (8インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:06,629 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【2020年発売 Fire TV Stick 第3世代用 】 延長保証プラン (3年) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:09,779 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ホワイト (10インチHDディスプレイ) 32GB > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:09,840 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ホワイト (10インチHDディスプレイ) 32GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:13,386 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 8GB トワイライトブルー 広告つき 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:16,852 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire 7 タブレット (7インチディスプレイ) 32GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:19,671 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 8, Fire HD 8 Plus用】 Amazon純正 カバー (2020年発売 第10世代) トワイライトブルー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:24,457 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon Kindle Paperwhite (第10世代) 用 ファブリックカバー カナリアイエロー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:28,322 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【セット買い】Echo Dot (第4世代) チャコール + スイッチボット Hub Mini スマートリモコン > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:31,870 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo (エコー) 第4世代 - スマートスピーカーwith Alexa - プレミアムサウンド&スマートホームハ… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:35,596 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:ロボロック(Roborock) S5 Max 白 ロボット掃除機 水拭き対応 高精度レーザーセンサー 2000Pa強… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:38,964 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite wifi 32GB 電子書籍リーダー (純正カバー ファブリック チャコールブラック… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:42,290 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:(10年保証) サンディスク microSDカード 64GB SDカードアダプタ付き 【Made for Amazon認… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:46,158 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle フロントライト搭載 Wi-Fi 8GB ホワイト 広告つき 電子書籍リーダー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:15:57,992 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Studio (エコースタジオ)Hi-Fiスマートスピーカーwith 3Dオーディオ&Alexa > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:16:01,639 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【セット買い】Echo Show 8 サンドストーン + Amazon スマートプラグ > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:16:05,055 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 Plus タブレット 64GB 【ワイヤレス充電スタンド付き】 > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:16:08,072 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 5 用】 延長保証・事故保証プラン (2年・落下・水濡れ等の保証付き) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:16:11,250 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire7 2019年発売 第9世代用】 Amazon純正 カバー (チャコールブラック) > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:16:14,640 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 タブレット ホワイト (8インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:16:17,404 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 10 (第7世代、第9世代)保護フィルム】 Digio2 液晶保護フィルム 高精細 反射防止 気泡… > カラム:priceの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:16:17,458 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 10 (第7世代、第9世代)保護フィルム】 Digio2 液晶保護フィルム 高精細 反射防止 気泡… > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:16:25,939 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon Kindle Paperwhite (第10世代) 用 ファブリックカバー マリンブルー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:16:29,244 - INFO - scraping.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【 Kindle Oasis (第9世代、第10世代)用】 Amazon純正 ファブリックカバー マリンブルー > カラム:deliveryの取得に失敗しました。error:'bool' object has no attribute 'text'
+2021-04-20 22:29:50,412 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 1個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,415 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 2個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,417 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 3個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,419 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 4個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,421 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 5個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,425 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 6個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,427 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 7個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,428 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 8個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,430 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 9個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,432 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 10個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,436 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 11個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,439 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 12個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,440 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 13個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,443 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 14個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,445 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 15個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,447 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 16個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,452 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 17個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,453 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 18個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,455 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 19個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,457 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 20個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,459 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 21個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,461 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 22個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,463 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 23個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,466 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 24個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,471 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 25個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,473 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 26個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,476 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 27個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,480 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 28個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,482 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 29個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,487 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 30個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,490 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 31個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,492 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 32個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,494 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 33個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,498 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 34個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,504 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 35個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,508 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 36個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,514 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 37個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,518 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 38個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,521 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 39個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,524 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 40個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,528 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 41個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,533 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 42個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,537 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 43個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,542 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 44個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,545 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 45個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,546 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 46個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,547 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 47個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,549 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 48個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,550 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 49個目のアイテム概要取得に失敗しました。
+2021-04-20 22:29:50,552 - INFO - bs.py - __main__ - _get_item_overview_info - カテゴリ:Amazonデバイス・アクセサリ > 50個目のアイテム概要取得に失敗しました。
+2021-04-20 22:45:26,240 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン(第3世代)付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:45:28,934 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:45:31,390 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon イーサネットアダプタ > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:45:36,175 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【2020年発売 Fire TV Stick 第3世代用 】 延長保証プラン (2年) > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:45:38,690 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 22:45:38,779 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:55:38,233 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン(第3世代)付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:55:41,037 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:55:43,562 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon イーサネットアダプタ > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:55:49,014 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【2020年発売 Fire TV Stick 第3世代用 】 延長保証プラン (2年) > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:55:51,646 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 22:55:51,778 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:58:17,017 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン(第3世代)付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:58:19,554 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:58:21,571 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon イーサネットアダプタ > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:58:25,941 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【2020年発売 Fire TV Stick 第3世代用 】 延長保証プラン (2年) > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:58:28,249 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 22:58:28,416 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:59:10,498 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン(第3世代)付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:59:14,265 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:59:16,771 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon イーサネットアダプタ > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:59:20,945 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【2020年発売 Fire TV Stick 第3世代用 】 延長保証プラン (2年) > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 22:59:23,513 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 22:59:23,620 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:27,171 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン(第3世代)付属 | ストリーミングメディアプレーヤー > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:29,832 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:31,712 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon イーサネットアダプタ > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:36,802 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【2020年発売 Fire TV Stick 第3世代用 】 延長保証プラン (2年) > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:39,431 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:39,530 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 64GB > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:41,571 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:41,625 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:41,642 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick - Alexa対応音声認識リモコン付属 | ストリーミングメディアプレーヤー > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:44,081 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Kindle Paperwhite (第10世代) 用 保護フィルム】 Digio2 液晶保護フィルム フッ素コーティン… > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:44,106 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Kindle Paperwhite (第10世代) 用 保護フィルム】 Digio2 液晶保護フィルム フッ素コーティン… > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:47,025 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Alexa対応音声認識リモコン(2021年発売 第3世代) | 対応する別売りのFire TV本体が必要です > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:50,276 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Alexa対応音声認識リモコン(第2世代) Fire TV Stick 4K、Fire TV Stick (第3世代)、Fire TV… > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:50,289 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Alexa対応音声認識リモコン(第2世代) Fire TV Stick 4K、Fire TV Stick (第3世代)、Fire TV… > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:53,537 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット) 第4世代 - 時計付きスマートスピーカー with Alexa、グレーシャーホワ… > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:56,522 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 8, Fire HD 8 Plus用】 Digio2  液晶保護フィルム 高精細 反射防止 気泡レス加工 2枚入り > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:05:59,388 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire 7 タブレット (7インチディスプレイ) 16GB > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:02,176 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 8GB ブラック 電子書籍リーダー > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:05,196 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Show 5 (エコーショー5) スマートディスプレイ with Alexa、チャコール > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:08,465 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 タブレット ブラック (8インチHDディスプレイ) 32GB > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:11,405 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Show 5 (エコーショー5) スマートディスプレイ with Alexa、サンドストーン > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:14,384 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット) 第4世代 - スマートスピーカー with Alexa、チャコール > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:17,290 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 32GB ブラック 電子書籍リーダー > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:20,087 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット) 第4世代 - 時計付きスマートスピーカー with Alexa、トワイライトブルー > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:22,227 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Alexa対応音声認識リモコン(第1世代) Fire TV全機種に対応 > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:24,714 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ホワイト (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:24,788 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ホワイト (10インチHDディスプレイ) 64GB > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:28,056 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Amazon Kindle Paperwhite (第10世代) 用 ファブリックカバー チャコールブラック > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:31,032 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Dot (エコードット)第3世代 - スマートスピーカー with Alexa、チャコール > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:33,092 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K用 延長保証プラン (2年) > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:35,772 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite (第10世代)用 延長保証・事故保証プラン (2年・落下・水濡れ等の保証付き) > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:38,305 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブルー (10インチHDディスプレイ) 64GB > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:38,395 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブルー (10インチHDディスプレイ) 64GB > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:41,115 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 Plus タブレット スレート (8インチHDディスプレイ) 32GB > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:43,234 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 10 2019年発売 第9世代用】 延長保証・事故保証プラン (2年・落下・水濡れ等の保… > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:46,468 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 5 用】 Amazon純正 角度調節スタンド ブラック > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:49,397 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Show 8 (エコーショー8) HDスマートディスプレイ with Alexa、チャコール > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:51,236 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick 4K用 延長保証プラン (3年) > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:53,971 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 タブレット ホワイト (8インチHDディスプレイ) 32GB > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:56,022 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:56,069 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:56,085 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire TV Stick > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:06:58,769 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Oasis 色調調節ライト搭載 wifi 32GB 電子書籍リーダー > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:01,361 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Echo Show 8 (エコーショー8) HDスマートディスプレイ with Alexa、サンドストーン > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:04,147 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Kindle Paperwhite 防水機能搭載 wifi 8GB ブラック 広告つき 電子書籍リーダー > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:06,589 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 8, Fire HD 8 Plus用】 延長保証・事故保証プラン (2年・落下・水濡れ等の保証付き) > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:09,293 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【新型】Echo Dot (エコードット) 第4世代 - スマートスピーカー with Alexa、グレーシャーホワ… > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:11,520 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Fire HD 8, Fire HD 8 Plus用】 Amazon純正 カバー (2020年発売 第10世代) チャコールブラック > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:14,615 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【新型】Echo Show 10 (エコーショー10) 第3世代 - モーション機能付きスマートディスプレイ… > カラム:deliveryの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:14,643 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【新型】Echo Show 10 (エコーショー10) 第3世代 - モーション機能付きスマートディスプレイ… > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:17,374 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 32GB > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:17,468 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック (10インチHDディスプレイ) 32GB > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:20,220 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【新型】Echo Show 10 (エコーショー10) 第3世代 - モーション機能付きスマートディスプレイ… > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:22,563 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【 Kindle Oasis (第9世代、第10世代)用】Digio2 液晶保護フィルム フッ素コーティング 反射防止… > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:26,419 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 キッズモデル パープル 32GB + ドラえもんバッグ > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:29,148 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 キッズモデル パープル (10 インチ HD ディスプレイ) 32GB + ドラえもんバッグ > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:31,714 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック 64GB 【純正キッズカバー (ピンク) 付き】 > カラム:priceの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:31,795 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 10 タブレット ブラック 64GB 【純正キッズカバー (ピンク) 付き】 > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:34,579 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 8 用】 Amazon純正 角度調節スタンド ブラック > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:39,300 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:Fire HD 8 タブレット ブルー (8インチHDディスプレイ) 32GB > カラム:ASINの取得に失敗しました。error:list index out of range
+2021-04-20 23:07:41,775 - INFO - bs.py - __main__ - _get_item_detail - カテゴリ:Amazonデバイス・アクセサリ > 商品名:【Echo Show 5 用】 Amazon純正 角度調節スタンド ホワイト > カラム:ASINの取得に失敗しました。error:list index out of range

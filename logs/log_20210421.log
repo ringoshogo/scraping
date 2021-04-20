@@ -1,0 +1,6 @@
+2021-04-21 01:36:40,195 - ERROR - bsoup.py - bsoup - get_category_list - カテゴリ取得中にエラーが発生しました。error:Message: invalid argument: 'url' must be a string
+  (Session info: headless chrome=89.0.4389.128)
+
+2021-04-21 01:37:54,946 - ERROR - bsoup.py - bsoup - get_category_list - カテゴリ取得中にエラーが発生しました。error:Message: invalid argument
+  (Session info: headless chrome=89.0.4389.128)
+

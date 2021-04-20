@@ -34,16 +34,13 @@ class Driver(Singleton):
         #chromeドライバーの読込
         options = webdriver.ChromeOptions()
 
-        # ヘッドレスモード（画面非表示モード）をの設定
-        if headless_flg == True:
-            options.add_argument('--headless')
-
         # 起動オプションの設定
         options.add_argument(
             '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36')
         
         # profile を作成する場合
-        userdata_dir = "UserData"
+        userdata_dir = os.getcwd() + "\\UserData"
+        print(userdata_dir)
         if not os.path.exists(userdata_dir):
             os.makedirs(userdata_dir, exist_ok=True)
 
@@ -51,10 +48,19 @@ class Driver(Singleton):
         options.add_argument('--ignore-certificate-errors')
         options.add_argument('--ignore-ssl-errors')
         options.add_argument('--user-data-dir=' + userdata_dir)
+        # ヘッドレスモード（画面非表示モード）をの設定
+        if headless_flg:
+            options.add_argument('--headless')
 
         #options.add_argument('--incognito')          # シークレットモードの設定を付与
 
-        self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+        try:
+            self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+        except Exception as err:
+            cmd = 'taskkill /im chrome.exe /f'
+            returncode = subprocess.call(cmd)
+            print(returncode)
+
 
     def get(self, url):
         """引数指定のURLに遷移する"""
@@ -167,3 +173,7 @@ class Driver(Singleton):
     def quit(self):
         """処理を終了する"""
         self.driver.quit()
+
+    def page_source(self):
+        """htmlを取得する"""
+        return self.driver.page_source.encode('utf-8_sig')

@@ -1,3 +1,5 @@
+# seleniumのみ(BeautifulSoupを使用しない)スクレイピング
+
 import time
 import os
 
@@ -17,43 +19,47 @@ CSV_ROOT_URL = os.getcwd() + "/result/"
 def scraping_all():
     """amazonの全カテゴリの情報を取得する"""
 
-    driver = Driver(False)
+    driver = Driver(True)
 
-    # ランキングトップページへ遷移
-    driver.get(RNK_TOP_URL)
-    driver.wait_until_presence_of_all_elements_located()
-    time.sleep(1)
+    try:
 
-    # 遷移先を取得
-    category_dict = {}
-    category_elems = driver.find_element(By.ID, "zg_browseRoot").find_elements(By.TAG_NAME, "a")
-    for elem in category_elems:
-        # 遷移先を辞書形式で取得。{カテゴリ名: url}
-        category_dict[elem.text] = elem.get_attribute("href")
+        # ランキングトップページへ遷移
+        driver.get(RNK_TOP_URL)
+        driver.wait_until_presence_of_all_elements_located()
+        time.sleep(1)
 
-    # カテゴリごとに処理を実施
-    for k, v in category_dict.items():
-        # k=カテゴリ名, v=url
+        # 遷移先を取得
+        category_dict = {}
+        category_elems = driver.find_element(By.ID, "zg_browseRoot").find_elements(By.TAG_NAME, "a")
+        for elem in category_elems:
+            # 遷移先を辞書形式で取得。{カテゴリ名: url}
+            category_dict[elem.text] = elem.get_attribute("href")
 
-        # 【カテゴリ別商品一覧】商品別に値を取得する
-        result_list = [["category", "ranking", "name", "price", "isprime", "stock", "delivery", "ASIN"]]
-        item_list = []
+        # カテゴリごとに処理を実施
+        for k, v in category_dict.items():
+            # k=カテゴリ名, v=url
 
-        # CSVpath
-        csv_path = CSV_ROOT_URL + k + ".csv"
+            # 【カテゴリ別商品一覧】商品別に値を取得する
+            result_list = [["category", "ranking", "name", "price", "isprime", "stock", "delivery", "ASIN"]]
+            item_list = []
 
-        # カテゴリ別商品一覧画面の情報を取得する
-        _get_item_overview_info(driver, v, k, item_list)
-        _get_item_overview_info(driver, v + "&pg=2", k, item_list)
+            # CSVpath
+            csv_path = CSV_ROOT_URL + k + ".csv"
 
-        for item in item_list:
+            # カテゴリ別商品一覧画面の情報を取得する
+            _get_item_overview_info(driver, v, k, item_list)
+            _get_item_overview_info(driver, v + "&pg=2", k, item_list)
 
-            # 商品詳細情報を取得する
-            _get_item_detail_info(driver, item, k, result_list)
+            for item in item_list:
 
-        CSVio.write_list_to_csv(csv_path, result_list)
+                # 商品詳細情報を取得する
+                _get_item_detail_info(driver, item, k, result_list)
 
-        break
+            CSVio.write_list_to_csv(csv_path, result_list)
+
+            break
+    finally:
+        driver.quit()
 
 def scraping(url):
     """指定の商品カテゴリ一覧ページの情報を取得する"""

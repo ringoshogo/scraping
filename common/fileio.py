@@ -9,7 +9,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
 
 # ロガーの設定
-from common.logger import set_logger
+from .logger import set_logger
 logger = set_logger(__name__)
 
 #2つのAPIを記述しないとリフレッシュトークンを3600秒毎に発行し続けなければならない
@@ -39,10 +39,6 @@ class GspreadHandler(Singleton):
         df.drop('index', axis=1, inplace=True)
         return df.set_index("#")
 
-
-if __name__ == "__main__":
-    pass
-
 class CSVio:
     """csvファイルへの書き込みを実施するクラス"""
 
@@ -55,3 +51,18 @@ class CSVio:
                 writer.writerows(target_list)
         except IOError as e:
             logger.error("ファイルに書き込みができませんでした。")
+
+
+    @staticmethod
+    def read_csv_to_dict(target_path: str):
+        """引数指定のパスからcsvを読みこみ辞書形式で取得する"""
+        try:
+            with open(target_path, "r", encoding="utf-8_sig") as f:
+                reader = csv.DictReader(f)
+                return [row for row in reader]
+        except IOError as e:
+            logger.error("ファイルに書き込みができませんでした。")
+
+if __name__ == "__main__":
+    csv_path = "../result/Amazonデバイス・アクセサリ.csv"
+    print(CSVio.read_csv_to_dict(csv_path)[0])
