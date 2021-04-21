@@ -14,6 +14,27 @@
     <body>
     <!-- 全体 -->
     <div id="body" class="mx-auto">
+        <!-- モーダル -->
+        <div class="modal fade" data-keyboard="false" data-backdrop="static" id="amazon_category_url" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <!-- モーダル画面のヘッダ -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">amazonカテゴリ一覧のURL</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!-- モーダル画面のボディ -->
+                    <div class="modal-body">
+                        <label>amazonカテゴリ一覧のURL</label> 
+                        <input id="category_table_url" v-model="category_table_url" class="form-control m-1" type="text" placeholder="URL">
+                        <button type="button" class="col-sm-2 m-1 btn btn-success" data-dismiss="modal" @click="updateCategory">更新</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- 購入商品選択コンテナ -->
         <div class="container">
             <h2 class="jumbotron-heading pt-2">商品情報収集</h2>
@@ -36,7 +57,7 @@
                 <!-- 最新のカテゴリを取得ボタン -->
                 <div class="col-sm-4 m-1">
                     <label class="invisible">カテゴリ更新ボタン</label>
-                    <button type="button"class="btn btn-link" data-toggle="tooltip" data-placement="top" title="最新のカテゴリを取得します。" @click="updateCategory">カテゴリ更新</button>
+                    <button type="button"class="btn btn-link" data-toggle="modal" data-target="#amazon_category_url" >カテゴリ更新</button>
                 </div>
             </div>
         </div>
@@ -76,9 +97,9 @@
                     this.selected_category = this.category_url_list[0];
                 },
                 methods: {
-                    // 翻訳する
-                    scraping: async function() {
-                        console.log(this.selected_category)
+                    // スクレイピングする
+                    scraping: function() {
+                        eel.scraping_bybs4(this.selected_category.category_name, this.selected_category.category_url)
                     },
                     updateCategory: async function() {
                         console.log(this.category_table_url);

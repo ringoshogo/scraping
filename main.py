@@ -9,6 +9,9 @@ import bsoup
 from datetime import datetime
 from common.fileio import CSVio
 
+from common.logger import set_logger
+
+logger = set_logger(__name__)
 
 app_name="html"
 end_point="index.html"
@@ -40,5 +43,17 @@ def get_category_master():
 def get_category_table_url_master():
     """マスタからカテゴリ一覧のURLを取得する"""
     return CSVio.read_csv_to_dict(AMZ_CTG_MST_PTH)
+
+@ eel.expose
+def scraping_bybs4(category_name, url):
+    """指定のURLでスクレイピングする"""
+    eel.writeLog(f"{datetime.now().strftime('%Y/%m/%d_%H:%M:%S')}-カテゴリ:{category_name} の商品情報の収集を開始します。")
+    try:
+        bsoup.scraping_bybs4(category_name, url)
+        eel.writeLog(f"{datetime.now().strftime('%Y/%m/%d_%H:%M:%S')}-カテゴリ:{category_name} の商品情報の収集が正常に終了しました。csvファイルに結果が出力されています。")
+    except Exception as err:
+        logger.error(err)
+        eel.writeLog(f"{datetime.now().strftime('%Y/%m/%d_%H:%M:%S')}-カテゴリ:{category_name} の商品情報の収集に失敗しました。")
+
 
 desktop.start(app_name,end_point,size)

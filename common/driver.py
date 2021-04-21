@@ -27,7 +27,6 @@ class Driver(Singleton):
     def __init__(self, headless_flg):
 
         # 既にドライバーを作成済みの場合、事前に閉じる
-        print("has attr driver", hasattr(self, 'driver'))
         if hasattr(self, 'driver'):
             self.driver.quit()
 
@@ -40,7 +39,6 @@ class Driver(Singleton):
         
         # profile を作成する場合
         userdata_dir = os.getcwd() + "\\UserData"
-        print(userdata_dir)
         if not os.path.exists(userdata_dir):
             os.makedirs(userdata_dir, exist_ok=True)
 
