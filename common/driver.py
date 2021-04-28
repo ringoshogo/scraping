@@ -111,7 +111,7 @@ class Driver(Singleton):
             try:
                 # 300秒待機する
                 WebDriverWait(self.driver, wait_time).until(
-                    EC.element_to_be_clickable((tag_type, name))
+                    EC.presence_of_element_located((tag_type, name))
                 )
             except TimeoutException as err:
                 logger.error(f"{wait_time}秒経ってもタイプ：{tag_type}名前：{name}を確認できませんでした。error:{err.args}")

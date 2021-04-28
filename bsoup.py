@@ -66,7 +66,7 @@ def scraping_bybs4(category_name, url):
     csv_path = CSV_ROOT_URL + category_name + ".csv"
     
     # ドライバを起動
-    driver = Driver(True)
+    driver = Driver(False)
     
     try:
         # カテゴリ別商品一覧画面の情報を取得する
@@ -132,16 +132,21 @@ def _get_item_overview_info(driver, href, category_name, item_list):
     # カテゴリ別商品一覧画面に遷移する
     driver.get(href)
     driver.wait_until_presence_of_all_elements_located()
+    time.sleep(5)
     html = driver.page_source()
     soup = BeautifulSoup(html, "lxml")
 
     items_elems = soup.select(".zg-item-immersion")
+    #zg-ordered-list > li:nth-child(3) > span > div > span > div.a-row > span > i
 
     # カテゴリ別商品一覧画面の情報を取得する
     for i, item_elem in enumerate(items_elems):
 
         try:
             item_dict = {}
+            if i <= 10:
+                print(item_elem.select("span > div > span > div.a-row > span"))
+                # print(item_elem.select("span > div > span > div.a-row > span > i"))
             # ランキング
             item_dict['rank'] = item_elem.select(".zg-badge-text")[0].text.strip()
             
